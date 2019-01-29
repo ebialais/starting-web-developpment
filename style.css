@@ -44,7 +44,7 @@ header {
 }
 
 header > h1 {
-    color: #cd625e;
+    color: #d33f3a;
 }
 
 header > img {
@@ -58,7 +58,7 @@ header > a {
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
     color: #ffffff;
-    background-color: #cd625e;
+    background-color: #d33f3a;
     padding: 1em;
     border-radius: 0.5em;
 }
@@ -75,26 +75,34 @@ header > p {
 /*----------------- Box 2 -------------*/
 
 nav > ul {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2.7em 5em;
     list-style-type: none;
-    padding: 0 28%;
+    
 }
 
 nav li {
-    display: inline-block;
-    font-size: 2em;
+    
+    font-size: 1.3em;
+    margin: auto;
+    /* text-align: center; */
+    /* padding: 5%; */
 
 }
 
 .fab {
     text-decoration: none;
-    font-size: 1.3em;
+    font-size: 1.7em;
     text-align: center;
-    padding: 5px;
-    color: #7d7d7d;
+    color: #cccccc;
 }
 
 .fab p {
     font-size: 0.5em;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10%;
 }
 
 /*--------------- section -----------------*/
