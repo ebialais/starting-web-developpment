@@ -1,0 +1,153 @@
+//Variables
+
+$color1 : #d33f3a;
+$color2 : #ffffff;
+$color3 : #cecece;
+$color4 : #7d7d7d;
+$color5 : #d33f3a;
+$color6 : #cccccc;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $color1;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.item {
+    background-color: $color2;
+    margin: 20px;   
+    width: 45vw;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 2px 2px $color3;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0.5em;
+}
+
+h2, h3 {
+    color: $color4;
+}
+
+
+
+
+/*----------- Box 1 -------------*/
+
+
+header {
+    text-align: center;
+}
+
+header > h1 {
+    color: $color5;
+}
+
+header > img {
+    border: 5px solid $color6;
+    border-radius: 150px;
+    margin: auto;
+    width: 20%;
+}
+
+header > a {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color: $color2;
+    background-color: $color5;
+    padding: 1em;
+    border-radius: 0.5em;
+}
+
+header > p {
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.7em;
+    color: $color4;
+    margin-bottom: 1.5em;
+}
+
+/*----------------- Box 2 -------------*/
+
+nav > ul {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2.7em 5em;
+    list-style-type: none;
+    
+}
+
+nav li {
+    
+    font-size: 1.3em;
+    margin: auto;
+    /* text-align: center; */
+    /* padding: 5%; */
+
+}
+
+.fab {
+    text-decoration: none;
+    font-size: 1.7em;
+    text-align: center;
+    color: $color6;
+}
+
+.fab p {
+    font-size: 0.5em;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10%;
+}
+
+/*--------------- section -----------------*/
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.clearfix {
+    overflow: auto;    
+}
+
+section > h2 {
+    text-align: center;
+}
+
+.clearfix > h3 {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 1em;
+}
+
+section img {
+    float: left;
+    width: 25%;
+    margin: 1em;
+    padding: 1em;
+
+}
+
+.clearfix > p {
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1em;
+    color: $color4;
+}
