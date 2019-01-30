@@ -7,6 +7,9 @@ $color4 : #7d7d7d;
 $color5 : #d33f3a;
 $color6 : #cccccc;
 
+$font1 : 'Montserrat', sans-serif;
+$font2 : 'Open Sans', sans-serif;
+
 *{
     margin: 0;
     padding: 0;
@@ -39,14 +42,16 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: $font1;
     padding: 0.5em;
 }
 
 h2, h3 {
     color: $color4;
 }
-
+header > h1 {
+    color: $color5;
+}
 
 
 
@@ -57,11 +62,9 @@ header {
     text-align: center;
 }
 
-header > h1 {
-    color: $color5;
-}
 
-header > img {
+
+header img {
     border: 5px solid $color6;
     border-radius: 150px;
     margin: auto;
@@ -70,7 +73,7 @@ header > img {
 
 header > a {
     text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
+    font-family: $font2;
     color: $color2;
     background-color: $color5;
     padding: 1em;
@@ -79,7 +82,7 @@ header > a {
 
 header > p {
     text-align: justify;
-    font-family: 'Open Sans', sans-serif;
+    font-family: $font2;
     font-size: 1.3em;
     line-height: 1.7em;
     color: $color4;
@@ -101,8 +104,7 @@ nav li {
     
     font-size: 1.3em;
     margin: auto;
-    /* text-align: center; */
-    /* padding: 5%; */
+
 
 }
 
@@ -115,7 +117,7 @@ nav li {
 
 .fab p {
     font-size: 0.5em;
-    font-family: 'Montserrat', sans-serif;
+    font-family: $font1;
     padding: 10%;
 }
 
@@ -139,26 +141,18 @@ nav li {
 
 }
 
-
-/* #imgVideo1, #imgVideo2, #imgVideo3, .text{
-    display: inline-block;
-} */
-
 #imgVideo1, #imgVideo2, #imgVideo3{
     float: left;
     width: 25%;
     margin: auto 1em;
     padding: 1em;
     min-width: 100px;
-    /* padding: 0;
-    padding: 1em;
-    margin-top: 30%;
-    width: 150px; */
+
 }
 
 
 .text {
-    font-family: 'Open Sans', sans-serif;
+    font-family: $font2;
     
     color: $color4;
 }
