@@ -17,8 +17,8 @@ body {
 }
 .container .item {
   background-color: #ffffff;
-  margin: 20px;
-  width: 45vw;
+  margin: 1.25em;
+  width: 45%;
   max-width: 800px;
   min-width: 300px;
   padding: 30px;
@@ -47,6 +47,7 @@ header img {
   border-radius: 150px;
   margin: auto;
   width: 20%;
+  min-width: 100px;
 }
 header a {
   text-decoration: none;
@@ -93,7 +94,6 @@ nav .fab:hover {
   color: #ffffff;
 }
 
-/*--------------- section -----------------*/
 .Video {
   display: flex;
   flex-direction: column;
@@ -130,6 +130,22 @@ nav .fab:hover {
   font-size: 1.1em;
 }
 
+@media only screen and (max-width: 800px) {
+  .item {
+    width: 700px;
+  }
+
+  #Odyssey, #Hulot, #Alien {
+    display: block;
+  }
+
+  #imgVideo1, #imgVideo2, #imgVideo3 {
+    float: none;
+    clear: right;
+    margin: auto;
+    width: 98%;
+  }
+}
 @media only screen and (max-width: 600px) {
   .item {
     width: 300px;
