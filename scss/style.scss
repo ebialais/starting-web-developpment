@@ -10,6 +10,11 @@ $color6 : #cccccc;
 $font1 : 'Montserrat', sans-serif;
 $font2 : 'Open Sans', sans-serif;
 
+$sizeFont1 : 1.3em;
+$sizeFont2 : 0.5em;
+$sizeFont3 : 1.5em;
+$sizeFont4: 0.3em;
+
 *{
     margin: 0;
     padding: 0;
@@ -78,7 +83,7 @@ header {
         text-align: justify;
         font: {
             family: $font2;
-            size: 1.3em;
+            size: $sizeFont1;
         }
         line-height: 1.7em;
         color: $color4;
@@ -98,20 +103,21 @@ nav {
     }
 
     li {
-        font-size: 1.3em;
+        font-size: $sizeFont1;
         margin: auto;
     }
 
     .fab {
         text-decoration: none;
-        font-size: 1.7em;
+        font-size: $sizeFont1;
         text-align: center;
         color: $color6;
-        padding-top: 0.5em;
+        padding: 0.5em 0.2em;
+        
 
         p {
             font: {
-                size: 0.5em;
+                size: $sizeFont2;
                 family: $font1;
             }
             padding: 10%;
@@ -155,12 +161,12 @@ nav {
 
     h3 {
         text-align: center;
-        font-size: 1.5em;
+        font-size: $sizeFont3;
     }
 
     p {
         text-align: justify;
-        font-size: 1.1em;
+        font-size: $sizeFont1; 
     }
 }
 
@@ -179,6 +185,14 @@ nav {
         margin: auto;
         width: 98%;
     }
+    .fab {
+        padding: 0.5em 0.05em;
+        p {
+            font: {
+                size: $sizeFont4;
+            }
+        }
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -195,5 +209,13 @@ nav {
         clear: right;
         margin: auto;
         width: 98%;
+    }
+    .fab {
+        padding: 0.5em 0.05em;
+        p {
+            font: {
+                size: $sizeFont4;
+            }
+        }
     }
 }

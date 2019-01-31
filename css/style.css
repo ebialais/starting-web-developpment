@@ -79,10 +79,10 @@ nav li {
 }
 nav .fab {
   text-decoration: none;
-  font-size: 1.7em;
+  font-size: 1.3em;
   text-align: center;
   color: #cccccc;
-  padding-top: 0.5em;
+  padding: 0.5em 0.2em;
 }
 nav .fab p {
   font-size: 0.5em;
@@ -127,7 +127,7 @@ nav .fab:hover {
 }
 .text p {
   text-align: justify;
-  font-size: 1.1em;
+  font-size: 1.3em;
 }
 
 @media only screen and (max-width: 800px) {
@@ -145,6 +145,13 @@ nav .fab:hover {
     margin: auto;
     width: 98%;
   }
+
+  .fab {
+    padding: 0.5em 0.05em;
+  }
+  .fab p {
+    font-size: 0.3em;
+  }
 }
 @media only screen and (max-width: 600px) {
   .item {
@@ -160,6 +167,13 @@ nav .fab:hover {
     clear: right;
     margin: auto;
     width: 98%;
+  }
+
+  .fab {
+    padding: 0.5em 0.05em;
+  }
+  .fab p {
+    font-size: 0.3em;
   }
 }
 
