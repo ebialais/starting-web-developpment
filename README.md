@@ -15,4 +15,4 @@ Exercice de création du page web
 
 ## 3ème étape : 
 
-- A partir de la branche "convert-to-sass" => suppression du fichier CSS et replacement par un fichier générer par un ficher SCSS de notre création. Respecter les même consignes de rendu de style qu'à l'étapes 1.
+- A partir de la branche "convert-to-sass" => suppression du fichier CSS et replacement par un fichier générer par un ficher SCSS de notre création. Respecter les même consignes de rendu de style qu'à l'étape 1.
