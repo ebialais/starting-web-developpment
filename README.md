@@ -1,18 +1,28 @@
 # starting-web-developpment
 
-Exercice de création du page web
+Exercise of creation of a web page on the basis of an imposed model.
+After the 2 weeks of training at Becode. We had 3 days to accomplish it.
 
 
-## 1ère étape : 
+## 1st step: 
 
-- Création à partir d'une page existante avec, comme consigne de la reproduire à l'identique.
-- Maîtriser les différents éléments CSS nécessaires et les paramêtrer correctement.
-- Importer les icones à partir de fontawesome.
+- Creation from an existing page with, as instructions to reproduce it identically.
+- Master the different CSS elements needed and set them correctly.
+- Import icons from fontawesome.
 
-## 2ème étape : 
+## 2nd step: 
 
 - Design responsive
 
-## 3ème étape : 
+## 3rd step: 
 
-- A partir de la branche "convert-to-sass" => suppression du fichier CSS et replacement par un fichier générer par un ficher SCSS de notre création. Respecter les même consignes de rendu de style qu'à l'étapes 1.
+- From the "convert-to-sass" branch => removal of the CSS file and reproduce de design with SASS : th aim is to master SASS in a minimum amount of time.
+
+## Visual:
+
+https://ebialais.github.io/starting-web-developpment/
+
+![View]( images/Screenshot.png)
+
+
+
