@@ -1,7 +1,7 @@
 # starting-web-developpment
 
-Exercise of creation of a web page on the basis of an imposed model.
-After the 2 weeks of training at Becode. We had 3 days to accomplish it.
+After the 2 weeks of training at Becode, exercise of creation of a web page on the basis of an imposed model.
+We had 3 days to accomplish it.
 
 
 ## 1st step: 
